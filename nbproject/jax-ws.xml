@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="ContaWS">
+      <implementation-class>loja.carros.webservice.ContaWS</implementation-class>
+    </service>
+    <service name="LojaWS">
+      <implementation-class>loja.carros.webservice.LojaWS</implementation-class>
+    </service>
+    <service name="MarcaWS">
+      <implementation-class>loja.carros.webservice.MarcaWS</implementation-class>
+    </service>
+    <service name="CarroWS">
+      <implementation-class>loja.carros.webservice.CarroWS</implementation-class>
+    </service>
+    <service name="ClassificacaoWS">
+      <implementation-class>loja.carros.webservice.ClassificacaoWS</implementation-class>
+    </service>
+    <service name="AluguelWS">
+      <implementation-class>loja.carros.webservice.AluguelWS</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
